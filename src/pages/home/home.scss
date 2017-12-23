@@ -1,3 +1,16 @@
 page-home {
-
+  .cover {
+    overflow:hidden;
+    background-color: lightgray;
+    border: solid 1px black;
+  }
+  .page {
+    overflow:hidden;
+    background-color: white;
+    border: solid 1px gray;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 100px;
+  }
 }
