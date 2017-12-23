@@ -1,7 +1,7 @@
 # ionic-turnjs
 Ionic sample using "The page flip effect for HTML5" http://www.turnjs.com
 
-> This is just a implementation of Ionic 3 import jQuery and TurnJS
+> This is a implementation of Ionic 3 importing jQuery and TurnJS
 
 # Requirements
 - Ionic Framework https://ionicframework.com/
@@ -24,7 +24,7 @@ ionic start ionic-turnjs blank
 
 ### Add jQuery and TurnJS
 - Copy jQuery and TurnJS libs to your `src/assets` folder
-- Edit your `src/index.html` file and add the above code before the end of `<head>` tag
+- Edit your `src/index.html` to add the above code before the `</head>` tag
  
 ```html
 <!-- jquery required for turnjs -->
@@ -32,7 +32,7 @@ ionic start ionic-turnjs blank
 <script src="assets/js/turn.min.js"></script>
 ```
 
-### Replace your `home.ts` with the above code
+### Replace `home.ts` with the above code
 ```js
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -62,7 +62,7 @@ export class HomePage {
 }
 ```
 
-### Create you TurnJS view
+### Create your TurnJS view
 ```html
 <ion-content>
   <div id="flipbook">
@@ -76,7 +76,7 @@ export class HomePage {
 </ion-content>
 ```
 
-### Add CSS to home.scss
+### Add CSS to `home.scss`
 ```css
 page-home {
   .cover {
